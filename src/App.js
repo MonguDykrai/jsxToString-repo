@@ -5,6 +5,8 @@ import { Table } from 'antd';
 
 console.log(jsxToString(<App />));
 
+console.log(jsxToString(<span>嘿喽</span>));
+
 export default function App() {
   const [table, setTable] = useState('');
   const [table2, setTable2] = useState('');
