@@ -5,6 +5,10 @@ import { Table } from 'antd';
 
 console.log(jsxToString(<App />));
 
+// console.log(jsxToString(<React.Fragment></React.Fragment>));
+
+console.log(<React.Fragment></React.Fragment>);
+
 console.log(jsxToString(<span>嘿喽</span>));
 
 export default function App() {
